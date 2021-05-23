@@ -29,7 +29,7 @@ void setup()
     if (!BLE.begin())
     {
         Serial.println("BLE failed to Initiate");
-        delay(500);
+        delay(2000);
         while (1);
     }
 
