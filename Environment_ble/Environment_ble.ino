@@ -10,6 +10,7 @@ String p, t, m;
 BLEService customService("180C");
 
 // BLE Characteristics
+
 // Syntax: BLE<DATATYPE>Characteristic <NAME>(<UUID>, <PROPERTIES>, <DATA LENGTH>)
 BLEStringCharacteristic ble_pressure("2A56", BLERead | BLENotify, 13);
 BLEStringCharacteristic ble_temperature("2A57", BLERead | BLENotify, 13);
